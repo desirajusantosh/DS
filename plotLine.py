@@ -3,4 +3,10 @@ import matplotlib as plt
 
 forest_fires = forest_fires.sort(["rain"])
 plt.plot(forest_fires["rain"], forest_fires["area"])
+# Set the x axis label
+plt.xlabel('Amount of Rain')
+# Set the y axis label
+plt.ylabel('Area')
+# Set the title
+plt.title("Rain quantity vs fire area")
 plt.show()
